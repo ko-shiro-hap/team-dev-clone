@@ -1,0 +1,304 @@
+body {
+  font-family: 'Noto Sans JP',
+  "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif,
+    serif;
+}
+
+/* start header */
+
+.header{
+  width: 100%;
+  height: 80px;
+  background-color: #2E79BA;
+  display: flex;
+  justify-content: space-between;
+}
+
+.CRAFT-text{
+  font-family: 'Eczar';
+  width: 120px;
+  height: 64px;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+.header-logo{
+  display: flex;
+  gap: 20px;
+  height: 50px;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.header-logo-img{
+  position: relative;
+  height: 20px;
+  top: 10px;
+  color: #FFFFFF;
+}
+
+.header-logo-right{
+  display: flex;
+  padding-top: 33px;
+  gap: 80px;
+  padding-right: 20px;
+}
+
+.header-i-center{
+  display: flex;
+  gap: 48px;
+}
+
+.fa-solid{
+  font-size: 1.5em;
+  padding-right: 8px;
+}
+
+.header-only-text{
+  padding-top: 8px;
+}
+
+.header-logo-text{
+  color: #FFFFFF;
+  font-weight: 700;
+  font-family: 'Eczar';
+}
+
+/* end header */
+
+.entries {
+  background-color:#fff;
+  max-width: 1000px;
+  width: 100%;
+  margin: 100px auto 0;
+  padding: 0 20px;
+}
+
+.entries-header-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.entries-header-num {
+  background-color: #F5F5F5;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.entries-header-num-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.entries-header-num-bottom span {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 0 10px;
+}
+
+.entries-header-nums {
+  display: flex;
+  gap: 40px;
+}
+
+.billable-count {
+  position: relative;
+}
+
+.billable-count::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #2E79BA;
+}
+
+.csv {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.csv-button {
+  background-color:#2E79BA;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.invalidation-application-button {
+  margin-left: auto;
+  background-color: #ff0303;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.entries-tablebox {
+  background-color:#fff;
+  margin-top: 12px;
+  padding: 20px;
+  border-left: solid 1px #2E79BA;
+  border-right: solid 1px #2E79BA;
+  border-bottom: solid 1px #2A79BA;
+}
+
+.entries-table {
+  padding: 10px 10px;
+}
+
+.entries-table th {
+  padding: 20px 10px;
+  text-align: left;
+  border-bottom: solid 1px #2E79BA;
+}
+
+th.entries-table-name {
+  width: 100px;
+}
+
+th.entries-table-sex {
+  width: 40px;
+}
+
+th.entries-table-mail {
+  width: 80px;
+}
+
+th.entries-table-tel {
+  width: 120px;
+}
+
+th.entries-table-prefecture {
+  width: 80px;
+}
+
+th.entries-table-university {
+  width: 150px;
+}
+
+th.entries-table-graduation {
+  width: 80px;
+}
+
+th.entries-table-date {
+  width: 80px;
+}
+
+th.entries-table-id {
+  width: 80px;
+}
+
+.entries-table td {
+  padding: 10px 10px;
+  border-bottom: solid 1px #D9D9D9;
+}
+
+.entries-table tr:last-child td{
+  border-bottom:none;
+}
+
+.selected-month-submit {
+  display: none;
+}
+
+.not-active-label {
+  margin-top: 32px;
+}
+
+.not-active-label::after {
+  content: "";
+  display: inline-block;
+  margin-left: 8px;
+  width: 28px;
+  height: 12px;
+  background-color: rgba(255, 3, 3, 0.3);
+}
+
+.entries-table-not-active {
+  background-color: rgba(255, 3, 3, 0.3);
+}
+
+
+/* start client registration */
+
+.entry-info-hero{
+  width: 100%;
+  height: 100%;
+}
+
+.hero-top{
+  padding-top: 136px;
+  display: flex;
+  justify-content: center;
+  gap: 568px;
+}
+
+.hero-text-left{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.hero-textbox{
+  padding: 8px 12px;
+  background-color: #2A79BA;
+  border-radius: 5px;
+}
+
+.hero-text-right{
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.all-entries-info-table{
+  width: 864px;
+  height: 564px;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-family: 'Noto Sans JP';
+}
+
+.table-th{
+  width: 160px;
+  height: 36px;
+  background-color: #2A79BA;
+  color: #FFFFFF;
+  text-align: left;
+    padding-left: 20px;
+    padding-top: 12px;
+
+}
+
+.th-odd{
+  background-color: #F5F5F5;
+  text-align: left;
+    padding-left: 20px;
+
+}
+
+.th-even{
+  background-color: #E6E6E6;
+  text-align: left;
+    padding-left: 20px;
+}
+
+/* end client registration */
